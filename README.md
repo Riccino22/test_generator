@@ -1,2 +1,2 @@
 # Test Generator
-A python app for generate exams with a Language Model and Streamlit for the interface
+A Python app for generating exams with a language model and Streamlit for the interface.
