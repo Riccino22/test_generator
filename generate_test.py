@@ -1,8 +1,10 @@
-import ast
 import json
 from langchain.chains import LLMChain
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import PromptTemplate
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def generate(topic, quantity):
     """
